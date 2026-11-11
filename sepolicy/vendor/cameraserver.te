@@ -1,0 +1,2 @@
+# persist.vendor.camera.privapp.list, Samsung camera app allowlist
+dontaudit cameraserver vendor_default_prop:file r_file_perms;

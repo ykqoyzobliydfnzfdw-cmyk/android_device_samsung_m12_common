@@ -1,0 +1,4 @@
+allow vold efs_file:dir rw_dir_perms;
+
+# Walks mount points at boot, cpefs is only used by the modem
+dontaudit vold sec_efs_file:dir r_dir_perms;

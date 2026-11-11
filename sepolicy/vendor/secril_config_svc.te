@@ -1,0 +1,6 @@
+r_dir_file(secril_config_svc, imei_efs_file);
+
+dontaudit secril_config_svc radio_control_prop:property_service set;
+
+# ro.multisim.*, ro.vendor.multisim.simslotcount is used instead
+dontaudit secril_config_svc default_prop:property_service set;
